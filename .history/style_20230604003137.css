@@ -55,6 +55,7 @@
     margin-top:10px;
     width:17%;
     font-size:1.5rem;
+
 }
 .btn_newGame{
     margin-top:30px;
@@ -63,19 +64,6 @@
     width:17%;
     font-size:1.5rem;
 }
-.btn_hold:hover{
-    transform:scale(1.1);
-    background-color:darkred;
-}
-.btn_roll:hover{
-    transform:scale(1.1);
-    background-color:darkred; 
-}
-.btn_newGame:hover{
-    transform:scale(1.1);
-    background-color:darkred; 
-}
-
 /* Image Dice */
 img{
     margin:20px 40px;
@@ -91,5 +79,5 @@ img{
     
 }
 .player_winn1{
-    background-color:rgba(228, 129, 129, 0.384);
+    background-color;
 }
