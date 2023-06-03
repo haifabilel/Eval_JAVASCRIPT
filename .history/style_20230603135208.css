@@ -20,16 +20,7 @@
     border-radius:5px;
     margin-top:-70px;
 }
-/* Current */
-.current{
-    background-color: #d13131;
-    width:30%;
-    font-size:1.5rem;
-    border-radius:5%;
-    text-align:center;
-    margin-left :35%;
-    color:white;
-}
+Current
 /* Buttons */
 .btn_roll{
     margin-left:41%; 

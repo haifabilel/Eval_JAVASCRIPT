@@ -23,12 +23,7 @@
 /* Current */
 .current{
     background-color: #d13131;
-    width:30%;
-    font-size:1.5rem;
-    border-radius:5%;
-    text-align:center;
-    margin-left :35%;
-    color:white;
+    width:30
 }
 /* Buttons */
 .btn_roll{
