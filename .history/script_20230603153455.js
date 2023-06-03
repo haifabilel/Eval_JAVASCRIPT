@@ -12,4 +12,4 @@ const buttonHold = document.querySelector('.btn_hold');
 const buttonNewGame = document.querySelector('.btn_newGame');
 // Current
 const current0 = document.getElementById('current_0');
-const current1 = document.getElementById('current_1');
+const current0 = document.getElementById('current_0');

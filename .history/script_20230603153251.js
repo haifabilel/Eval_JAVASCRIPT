@@ -8,8 +8,4 @@ const score1 = document.getElementById('score_1');
 const dice = document.querySelector('.dice');
 // Buttons
 const buttonRoll = document.querySelector('.btn_roll');
-const buttonHold = document.querySelector('.btn_hold');
-const buttonNewGame = document.querySelector('.btn_newGame');
-// Current
-const current0 = document.getElementById('current_0');
-const current1 = document.getElementById('current_1');
+const
