@@ -35,10 +35,8 @@ const switchPlayer = function(){
 buttonRoll.addEventListener("click", function() {
     dice.classList.remove("hidden");
 
- //Generate number 1 to 6
+    //Generate number 1 to 6
     const diceRandom = Math.floor(Math.random() *6) +1;
-    dice.src = `/asset/dice${diceRandom}.png`
-
-
+    dice.src = `/ass`
 
 })
