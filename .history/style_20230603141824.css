@@ -29,16 +29,11 @@
     text-align:center;
     margin-left :35%;
     color:white;
-    font-size:2rem;
 }
 /* Scors */
 .score{
     color:#d13131;
-    font-size:4rem;
-}
-.current_score{
-    color:white;
-    font-size:2rem;
+    font-size:
 }
 /* Buttons */
 .btn_roll{
@@ -67,10 +62,4 @@
 /* Image Dice */
 img{
     margin:20px 40px;
-}
-.hidden{
-    display:none;
-}
-.player_winn{
-    background-color:gold;   
 }
