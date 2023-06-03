@@ -24,7 +24,6 @@ let currentScore = 0 ;
 
 const switchPlayer = function(){
     document.getElementById(`current_${activePlayer}`).textContent = 0;
-    document.querySelector(`.player_${activePlayer}`).classList.remove('player_winn1');
     activePlayer = activePlayer === 0 ? 1 : 0;
     currentScore = 0;
     playerOne.classList.toggle("player_active");
@@ -66,7 +65,7 @@ if(diceRandom !==1){
 //ButtonHold
 buttonHold.addEventListener('click',function(){
     scores[activePlayer] += currentScore;
-    document.querySelector(`.player_${activePlayer}`).classList.remove('player_winn1');
+    document.querySelector(`player_${activePlayer}`).classList.remove('player_winn1');
     document.getElementById(`score_${activePlayer}`).textContent = scores[activePlayer];
     
    

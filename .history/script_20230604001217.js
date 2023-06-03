@@ -24,7 +24,6 @@ let currentScore = 0 ;
 
 const switchPlayer = function(){
     document.getElementById(`current_${activePlayer}`).textContent = 0;
-    document.querySelector(`.player_${activePlayer}`).classList.remove('player_winn1');
     activePlayer = activePlayer === 0 ? 1 : 0;
     currentScore = 0;
     playerOne.classList.toggle("player_active");

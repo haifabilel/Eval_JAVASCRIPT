@@ -24,11 +24,11 @@ let currentScore = 0 ;
 
 const switchPlayer = function(){
     document.getElementById(`current_${activePlayer}`).textContent = 0;
-    document.querySelector(`.player_${activePlayer}`).classList.remove('player_winn1');
     activePlayer = activePlayer === 0 ? 1 : 0;
     currentScore = 0;
     playerOne.classList.toggle("player_active");
     playerTow.classList.toggle("player_active"); 
+    document.querySelector(`.player_${activePlayer}`).classList.add('player_winn1');
 
 
     
@@ -56,7 +56,7 @@ audio.addEventListener('canplaythrough', lanseSon);
 if(diceRandom !==1){
     currentScore += diceRandom;
     document.getElementById(`current_${activePlayer}`).textContent = currentScore;
-    document.querySelector(`.player_${activePlayer}`).classList.add('player_winn1');
+
 
 }else{
     //Switch Player
