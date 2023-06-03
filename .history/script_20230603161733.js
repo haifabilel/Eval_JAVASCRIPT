@@ -44,7 +44,6 @@ const audio = new Audio('/asset/programmation-web_de-2_asset_son.mp3');
 const lanseSon = function () {
     audio.play
 }
-audio.addEventListener('canplaythrough', lanseSon)
 
 
 

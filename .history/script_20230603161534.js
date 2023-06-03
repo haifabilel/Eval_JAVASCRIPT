@@ -39,12 +39,7 @@ buttonRoll.addEventListener("click", function() {
     const diceRandom = Math.floor(Math.random() *6) +1;
     dice.src = `/asset/dice${diceRandom}.png`
 
-//   Sound game
-const audio = new Audio('/asset/programmation-web_de-2_asset_son.mp3');
-const lanseSon = function () {
-    audio.play
-}
-audio.addEventListener('canplaythrough', lanseSon)
+    
 
 
 
