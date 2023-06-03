@@ -31,5 +31,3 @@ const switchPlayer = function(){
 
 
 }
-
-})

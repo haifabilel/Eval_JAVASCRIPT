@@ -31,5 +31,4 @@ const switchPlayer = function(){
 
 
 }
-
-})
+ButtonRoll

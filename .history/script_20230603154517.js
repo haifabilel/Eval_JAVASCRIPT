@@ -24,12 +24,6 @@ let currentScore = 0 ;
 
 const switchPlayer = function(){
     document.getElementById(`current_${activePlayer}`).textContent = 0;
-    activePlayer = activePlayer === 0 ? 1 : 0 ;
-    currentScore = 0;
-    playerOne.classList.toggle("player_active");
-    playerTow.classList.toggle("player_active");
-
+    activePlayer = activePlayer === 0 ? 
 
 }
-
-})

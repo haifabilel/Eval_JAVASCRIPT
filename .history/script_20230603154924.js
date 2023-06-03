@@ -31,5 +31,5 @@ const switchPlayer = function(){
 
 
 }
-
-})
+// ButtonRoll
+buttonRoll.addEventListener("click", function() )

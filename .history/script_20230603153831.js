@@ -14,22 +14,4 @@ const buttonNewGame = document.querySelector('.btn_newGame');
 const current0 = document.getElementById('current_0');
 const current1 = document.getElementById('current_1');
 
-score0.textContent = 0 ;
-score1.textContent = 0 ;
-dice.classList.add("hidden");
-
-let scores = [0 , 0];
-let activePlayer = 0 ;
-let currentScore = 0 ;
-
-const switchPlayer = function(){
-    document.getElementById(`current_${activePlayer}`).textContent = 0;
-    activePlayer = activePlayer === 0 ? 1 : 0 ;
-    currentScore = 0;
-    playerOne.classList.toggle("player_active");
-    playerTow.classList.toggle("player_active");
-
-
-}
-
-})
+score0.textContent = 

@@ -31,5 +31,11 @@ const switchPlayer = function(){
 
 
 }
+// ButtonRoll
+buttonRoll.addEventListener("click", function() {
+    dice.classList.remove("hidden");
+
+    //Generate number 1 to 6
+    const diceR
 
 })
