@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400;1,700&display=swap');
+*{
+    font-family: Lato;
+}
+.container-fluid{
+    box-shadow:0.5rem 1 rem rgba(0,0,0,.5);
+    background-color: #fdfcfc;
+    width:90%;
+    height: 700px;
+    border: 10px solid  #d13131;
+    margin-top: 30px;
+}
+.player_0 , .player_1{
+    background-color:#f1f7f0;
+    text-align:center;
+    border-raduis:5px;
+    ma
+}

@@ -5,42 +5,18 @@
 .container-fluid{
     box-shadow:0.5rem 1 rem rgba(0,0,0,.5);
     background-color: #fdfcfc;
-    width:80%;
-    height: 600px;
+    width:90%;
+    height: 700px;
     border: 10px solid  #d13131;
     margin-top: 30px;
 }
 .row{
     margin-top:80px;
 }
-/* Playerss */
 .player_0 , .player_1{
     background-color:#f1f7f0;
     text-align:center;
     border-radius:5px;
     margin-top:-70px;
 }
-/* Buttons */
-.btn_roll{
-    margin-left:41%; 
-    margin-top:50px;
-    width:17%;
-    font-size:1.5rem;
-    padding:10px;
-   
-}
-.btn_hold{
-    padding:10px;
-    margin-left:41%;
-    margin-top:10px;
-    width:17%;
-    font-size:1.5rem;
-
-}
-.btn_newGame{
-    margin-top:30px;
-    padding: 10px;
-    margin-left:41%;
-    width:17%;
-    font-size:1.5rem;
-}
+.button-rollDice,

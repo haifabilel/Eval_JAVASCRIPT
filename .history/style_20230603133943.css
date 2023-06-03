@@ -23,11 +23,11 @@
 /* Buttons */
 .btn_roll{
     margin-left:41%; 
-    margin-top:50px;
+    margin-top:30px;
     width:17%;
     font-size:1.5rem;
     padding:10px;
-   
+    margin-top:-20px;
 }
 .btn_hold{
     padding:10px;

@@ -6,7 +6,7 @@
     box-shadow:0.5rem 1 rem rgba(0,0,0,.5);
     background-color: #fdfcfc;
     width:80%;
-    height: 600px;
+    height: 650px;
     border: 10px solid  #d13131;
     margin-top: 30px;
 }
@@ -23,11 +23,11 @@
 /* Buttons */
 .btn_roll{
     margin-left:41%; 
-    margin-top:50px;
+    margin-top:30px;
     width:17%;
     font-size:1.5rem;
     padding:10px;
-   
+    margin-top:-20px;
 }
 .btn_hold{
     padding:10px;
@@ -40,7 +40,4 @@
 .btn_newGame{
     margin-top:30px;
     padding: 10px;
-    margin-left:41%;
-    width:17%;
-    font-size:1.5rem;
 }
