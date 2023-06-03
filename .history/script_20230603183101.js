@@ -62,18 +62,14 @@ buttonHold.addEventListener('click',function(){
 
     if(scores[activePlayer] >=100){
         document.querySelector(`.player_${activePlayer}`).classList.add('player_winn');
-        const audio = new Audio('/asset/tadaa-47995.mp3');
+        const audio = new Audio('/asset/');
 
-        const lanseSon1 = function() {
+        const lanseSon = function() {
             audio.play()
         }
-        audio.addEventListener('canplaythrough', lanseSon1);
+        audio.addEventListener('canplaythrough', lanseSon);
         
     }else{
         switchPlayer();
     }
-});
-//  Button NewGame
-buttonNewGame.addEventListener ('click',function(){
-    document.location.reload()
- }) 
+})

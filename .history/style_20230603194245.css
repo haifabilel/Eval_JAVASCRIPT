@@ -28,7 +28,7 @@
     border-radius:5%;
     text-align:center;
     margin-left :35%;
-    color:black;
+    color:b;
     font-size:2rem;
 }
 /* Scors */
@@ -37,7 +37,7 @@
     font-size:4rem;
 }
 .current_score{
-    color:#d13131;
+    color:white;
     font-size:2rem;
 }
 /* Buttons */

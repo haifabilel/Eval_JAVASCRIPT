@@ -61,7 +61,7 @@ buttonHold.addEventListener('click',function(){
     document.getElementById(`score_${activePlayer}`).textContent = scores[activePlayer];
 
     if(scores[activePlayer] >=100){
-        document.querySelector(`.player_${activePlayer}`).classList.add('player_winn');
+        document.querySelector(`.player_${activePlayer}`).innerHTML('<img src="/asset">');
         const audio = new Audio('/asset/tadaa-47995.mp3');
 
         const lanseSon1 = function() {
@@ -75,5 +75,5 @@ buttonHold.addEventListener('click',function(){
 });
 //  Button NewGame
 buttonNewGame.addEventListener ('click',function(){
-    document.location.reload()
+    document.location.reload();
  }) 

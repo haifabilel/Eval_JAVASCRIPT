@@ -73,7 +73,5 @@ buttonHold.addEventListener('click',function(){
         switchPlayer();
     }
 });
-//  Button NewGame
-buttonNewGame.addEventListener ('click',function(){
-    document.location.reload()
+
  }) 
