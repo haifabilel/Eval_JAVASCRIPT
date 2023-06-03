@@ -46,12 +46,4 @@ const lanseSon = function() {
 audio.addEventListener('canplaythrough', lanseSon);
 
 });
-//Rolled
-if(diceRandom !==1){
-    currentScore += diceRandom;
-    document.getElementById(`current_${activePlayer}`).textContent = currentScore;
-
-}else{
-    //Switch Player
-    switchPlayer();
-}
+//R

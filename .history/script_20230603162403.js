@@ -4,7 +4,6 @@ const playerTow = document.getElementById('player_1');
 //Score
 const score0 = document.getElementById('score_0');
 const score1 = document.getElementById('score_1');
-//Dice
 const dice = document.querySelector('.dice');
 //buttons
 const buttonRoll = document.querySelector('.btn_roll');
@@ -44,14 +43,3 @@ const lanseSon = function() {
     audio.play()
 }
 audio.addEventListener('canplaythrough', lanseSon);
-
-});
-//Rolled
-if(diceRandom !==1){
-    currentScore += diceRandom;
-    document.getElementById(`current_${activePlayer}`).textContent = currentScore;
-
-}else{
-    //Switch Player
-    switchPlayer();
-}

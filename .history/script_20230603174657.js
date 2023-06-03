@@ -47,7 +47,7 @@ audio.addEventListener('canplaythrough', lanseSon);
 
 });
 //Rolled
-if(diceRandom !==1){
+if(diceRandom !===1){
     currentScore += diceRandom;
     document.getElementById(`current_${activePlayer}`).textContent = currentScore;
 
