@@ -96,21 +96,12 @@ img{
 }
 /* Mode mobile */
 @media screen and (max-width:576px){
-    .player_0 , .player_1{
-        font-size:1.5rem;
-    }
     .player_1{
-        margin-top:10px;
-    }
-    .score{
-        color:#d13131;
-        font-size:2rem;
-        margin-top:-10px;
+        margin-top: 10px;
     }
     img{
-        width:20px;
+        width:50px;
         margin-left:40%;
-        margin-top:0;
     }
     .btn_roll, .btn_hold, .btn_newGame{
         width:40%;
@@ -118,11 +109,8 @@ img{
         margin-left:32%;
         margin-top: 5px;
     }
-    .current{
-        font-size:1.2rem;
-        margin-top:-20px;
+    .btn_roll{
+        margin-top: -5px;
     }
-        
-  
     
 }

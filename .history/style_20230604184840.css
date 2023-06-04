@@ -97,7 +97,7 @@ img{
 /* Mode mobile */
 @media screen and (max-width:576px){
     .player_0 , .player_1{
-        font-size:1.5rem;
+        font-size:1rem;
     }
     .player_1{
         margin-top:10px;
