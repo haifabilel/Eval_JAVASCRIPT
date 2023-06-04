@@ -43,7 +43,7 @@
 }
 /* Buttons */
 .btn_roll{
-    margin-left:41.5%; 
+    margin-left:42%; 
     margin-top:30px;
     width:17%;
     font-size:1.5rem;
@@ -52,7 +52,7 @@
 }
 .btn_hold{
     padding:10px;
-    margin-left:41.5%;
+    margin-left:42%;
     margin-top:5px;
     margin-bottom:5px;
     width:17%;
@@ -61,7 +61,7 @@
 .btn_newGame{
     margin-top:30px;
     padding: 10px;
-    margin-left:41.5%;
+    margin-left:42%;
     width:17%;
     font-size:1.5rem;
 }
