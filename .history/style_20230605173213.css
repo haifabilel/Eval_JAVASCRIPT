@@ -8,7 +8,7 @@
     width:100%;
     height: 100%;
     border: 10px solid  #d13131;
-   
+ 
 }
 .row{
     margin-top:80px;
@@ -108,10 +108,7 @@ img{
         font-size:2rem;
         margin-top:-10px;
     }
-    .current_score{
-        margin-top:-10px;
-        font-size:1.5rem;
-    }
+    .current_score
     img{
         width:20px;
         margin-left:37%;

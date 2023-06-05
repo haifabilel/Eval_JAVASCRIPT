@@ -8,7 +8,7 @@
     width:100%;
     height: 100%;
     border: 10px solid  #d13131;
-   
+ 
 }
 .row{
     margin-top:80px;
@@ -97,20 +97,16 @@ img{
 }
 /* Mode mobile */
 @media screen and (max-width:576px){
-    h2{
-        font-size:2rem;
+    .player_0 , .player_1{
+        font-size:rem;
     }
     .player_1{
         margin-top:10px;
     }
     .score{
         color:#d13131;
-        font-size:2rem;
+        font-size:3rem;
         margin-top:-10px;
-    }
-    .current_score{
-        margin-top:-10px;
-        font-size:1.5rem;
     }
     img{
         width:20px;
@@ -124,7 +120,7 @@ img{
         margin-top: 5px;
     }
     .current{
-        font-size:1.5rem;
+        font-size:1.2rem;
         margin-top:-20px;
     }
         

@@ -16,7 +16,7 @@ const current1 = document.getElementById('current_1');
 
 score0.textContent = 0 ;
 score1.textContent = 0 ;
-
+// dice.classList.add("hidden");
 
 let scores = [0 , 0]
 let activePlayer = 0 ;
