@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400;1,700&display=swap');
 *{
-    padding:0;
-    margin:0;
-    font-family: 'Lato', sans-serif;
+    font-family: Lato;
 }
 .container-fluid{
     box-shadow:0.5rem 1 rem rgba(0,0,0,.5);
@@ -97,7 +95,7 @@ img{
 .player_winn{
     background:url(/asset/golden-winners-cup_1284-18399.avif);
     background-size: cover;
-    background-position:center;
+    background-position:;
    
     
 }
@@ -110,14 +108,14 @@ img{
 /* Mode mobile */
 @media screen and (max-width:576px){
     h2{
-        font-size:1.7rem;
+        font-size:2rem;
     }
     .player_1{
         margin-top:10px;
     }
     .score{
         color:#d13131;
-        font-size:1.7rem;
+        font-size:2rem;
         margin-top:-10px;
     }
     .current_score{

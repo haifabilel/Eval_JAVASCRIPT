@@ -60,7 +60,7 @@ if(diceRandom !==1){
 
 }else{
     //Switch Player
-    switchPlayer();
+    currentScore = 0;
 }
 });
 //ButtonHold

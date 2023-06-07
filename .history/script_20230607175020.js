@@ -79,7 +79,7 @@ buttonHold.addEventListener('click',function(){
             audio.play()
         }
         audio.addEventListener('canplaythrough', lanseSon1);
-        
+        document.getElementById(`score_${activePlayer}`).textContent = scores[activePlayer];
         
     }
     else{
@@ -88,5 +88,5 @@ buttonHold.addEventListener('click',function(){
 });
 //  Button NewGame
 buttonNewGame.addEventListener ('click',function(){
-    document.location.reload();
+    document.location.reload()
  }) 

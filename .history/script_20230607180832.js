@@ -22,18 +22,26 @@ let scores = [0 , 0]
 let activePlayer = 0 ;
 let currentScore = 0 ;
 
-const switchPlayer = function(){
+const switchPlayer = function() {
     document.getElementById(`current_${activePlayer}`).textContent = 0;
     document.querySelector(`.player_${activePlayer}`).classList.remove('player_winn1');
-    activePlayer = activePlayer === 0 ? 1 : 0;
-    currentScore = 0;
-    playerOne.classList.toggle("player_active");
-    playerTow.classList.toggle("player_active"); 
-
-
     
+    if (scores[activePlayer] >= 100) {
+        document.querySelector(`.player_${activePlayer}`).classList.add('player_winn');
+        const audio = new Audio('/asset/tadaa-47995.mp3');
 
+        const lanseSon1 = function() {
+            audio.play()
+        }
+        audio.addEventListener('canplaythrough', lanseSon1);
+    } else {
+        activePlayer = activePlayer === 0 ? 1 : 0;
+        currentScore = 0;
+        playerOne.classList.toggle("player_active");
+        playerTow.classList.toggle("player_active");
+    }
 }
+
 //buttonRoll
 buttonRoll.addEventListener("click", function() {
     dice.classList.remove("hidden");

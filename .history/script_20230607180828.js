@@ -88,5 +88,5 @@ buttonHold.addEventListener('click',function(){
 });
 //  Button NewGame
 buttonNewGame.addEventListener ('click',function(){
-    document.location.reload();
+    document.location.reload()
  }) 

@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400;1,700&display=swap');
 *{
-    padding:0;
-    margin:0;
     font-family: 'Lato', sans-serif;
 }
 .container-fluid{
@@ -117,7 +115,7 @@ img{
     }
     .score{
         color:#d13131;
-        font-size:1.7rem;
+        font-size:2rem;
         margin-top:-10px;
     }
     .current_score{

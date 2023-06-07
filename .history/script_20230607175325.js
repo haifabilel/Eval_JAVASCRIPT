@@ -83,7 +83,7 @@ buttonHold.addEventListener('click',function(){
         
     }
     else{
-        switchPlayer();
+        reload();
     }
 });
 //  Button NewGame
