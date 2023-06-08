@@ -96,13 +96,10 @@ img{
 }
 .player_winn{
     background:url(/asset/golden-winners-cup_1284-18399.avif);
-    background-size:contain;
+    background-size: cover;
     background-position:center;
-    background-repeat:no-repeat;
    
-   
-   
-  
+    
 }
 .player_winn1{
     background-color:rgba(228, 129, 129, 0.384);
@@ -113,14 +110,14 @@ img{
 /* Mode mobile */
 @media screen and (max-width:576px){
     h2{
-        font-size:1.7rem;
+        font-size:1.5rem;
     }
     .player_1{
         margin-top:10px;
     }
     .score{
         color:#d13131;
-        font-size:1.5rem;
+        font-size:1.7rem;
         margin-top:-10px;
     }
     .current_score{
@@ -130,7 +127,7 @@ img{
     img{
         width:20px;
         margin-left:40%;
-        margin-top:17px;
+        margin-top:0;
     }
     .btn_roll, .btn_hold, .btn_newGame{
         width:60%;
@@ -139,10 +136,11 @@ img{
         margin-top: 5px;
     }
     .current{
-        font-size:1.3rem;
+        font-size:1.5rem;
         margin-top:-20px;
     }
-    
+   
+        
   
     
 }

@@ -96,10 +96,9 @@ img{
 }
 .player_winn{
     background:url(/asset/golden-winners-cup_1284-18399.avif);
-    background-size:contain;
+background-size:contain;
     background-position:center;
     background-repeat:no-repeat;
-   
    
    
   
@@ -120,7 +119,7 @@ img{
     }
     .score{
         color:#d13131;
-        font-size:1.5rem;
+        font-size:2rem;
         margin-top:-10px;
     }
     .current_score{
@@ -130,7 +129,7 @@ img{
     img{
         width:20px;
         margin-left:40%;
-        margin-top:17px;
+        margin-top:0;
     }
     .btn_roll, .btn_hold, .btn_newGame{
         width:60%;
