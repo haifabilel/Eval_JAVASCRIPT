@@ -22,7 +22,7 @@ let scores = [0 , 0]
 let activePlayer = 0 ;
 let currentScore = 0 ;
 // SwitchPlayer function
-const switchPlayer = () => {
+const switchPlayer = function()=> {
     document.getElementById(`current_${activePlayer}`).textContent = 0;
     document.querySelector(`.player_${activePlayer}`).classList.remove('player_winn1');
     activePlayer = activePlayer === 0 ? 1 : 0;
@@ -32,7 +32,7 @@ const switchPlayer = () => {
 
 }
 //buttonRoll
-buttonRoll.addEventListener("click", () => {
+buttonRoll.addEventListener("click", function() {
     dice.classList.remove("hidden");
     
 //Generate number 1 to 6
@@ -42,7 +42,7 @@ buttonRoll.addEventListener("click", () => {
 //   Sound game
 const audio = new Audio('/asset/programmation-web_de-2_asset_son.mp3');
 
-const lanseSon = () => {
+const lanseSon = function() {
     audio.play()
 }
 audio.addEventListener('canplaythrough', lanseSon);
@@ -59,7 +59,7 @@ if(diceRandom !==1){
 }
 });
 //ButtonHold
-buttonHold.addEventListener('click',() =>{
+buttonHold.addEventListener('click',function(){
     scores[activePlayer] += currentScore;
     document.querySelector(`.player_${activePlayer}`).classList.remove('player_winn1');
     document.getElementById(`score_${activePlayer}`).textContent = scores[activePlayer];
@@ -70,7 +70,7 @@ if(scores[activePlayer] >=100){
      document.querySelector(`.player_${activePlayer}`).classList.add('player_winn');
      const audio = new Audio('/asset/tadaa-47995.mp3');
 
-     const lanseSon1 = () => {
+     const lanseSon1 = function() {
      audio.play()
     }
      audio.addEventListener('canplaythrough', lanseSon1);
@@ -82,6 +82,6 @@ if(scores[activePlayer] >=100){
 });
 
 //  Button NewGame
-buttonNewGame.addEventListener ('click',() =>{
+buttonNewGame.addEventListener ('click',function(){
     document.location.reload();
  }) 

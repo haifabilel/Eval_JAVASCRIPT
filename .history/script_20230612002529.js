@@ -59,7 +59,7 @@ if(diceRandom !==1){
 }
 });
 //ButtonHold
-buttonHold.addEventListener('click',() =>{
+buttonHold.addEventListener('click',function(){
     scores[activePlayer] += currentScore;
     document.querySelector(`.player_${activePlayer}`).classList.remove('player_winn1');
     document.getElementById(`score_${activePlayer}`).textContent = scores[activePlayer];
@@ -70,7 +70,7 @@ if(scores[activePlayer] >=100){
      document.querySelector(`.player_${activePlayer}`).classList.add('player_winn');
      const audio = new Audio('/asset/tadaa-47995.mp3');
 
-     const lanseSon1 = () => {
+     const lanseSon1 = function() {
      audio.play()
     }
      audio.addEventListener('canplaythrough', lanseSon1);
@@ -82,6 +82,6 @@ if(scores[activePlayer] >=100){
 });
 
 //  Button NewGame
-buttonNewGame.addEventListener ('click',() =>{
+buttonNewGame.addEventListener ('click',function(){
     document.location.reload();
  }) 

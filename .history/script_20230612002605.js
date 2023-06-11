@@ -82,6 +82,6 @@ if(scores[activePlayer] >=100){
 });
 
 //  Button NewGame
-buttonNewGame.addEventListener ('click',() =>{
+buttonNewGame.addEventListener ('click',function(){
     document.location.reload();
  }) 
