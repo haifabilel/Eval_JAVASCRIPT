@@ -35,7 +35,9 @@ const switchPlayer = function(){
 buttonRoll.addEventListener("click", function() {
     dice.classList.remove("hidden");
     
-//Generate number 1 to 6
+   
+
+    //Generate number 1 to 6
     const diceRandom = Math.floor(Math.random() * 6) + 1;
     dice.src =`/asset/dice${diceRandom}.png`
 
@@ -66,21 +68,21 @@ buttonHold.addEventListener('click',function(){
     
    
     
-if(scores[activePlayer] >=100){
-     document.querySelector(`.player_${activePlayer}`).classList.add('player_winn');
-     const audio = new Audio('/asset/tadaa-47995.mp3');
+    if(scores[activePlayer] >=100){
+        document.querySelector(`.player_${activePlayer}`).classList.add('player_winn');
+        const audio = new Audio('/asset/tadaa-47995.mp3');
 
-     const lanseSon1 = function() {
-     audio.play()
-    }
-     audio.addEventListener('canplaythrough', lanseSon1);
+        const lanseSon1 = function() {
+            audio.play()
+        }
+        audio.addEventListener('canplaythrough', lanseSon1);
+        
         
     }
     else{
         switchPlayer();
     }
 });
-
 //  Button NewGame
 buttonNewGame.addEventListener ('click',function(){
     document.location.reload();

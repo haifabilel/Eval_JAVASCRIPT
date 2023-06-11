@@ -80,7 +80,6 @@ if(scores[activePlayer] >=100){
         switchPlayer();
     }
 });
-
 //  Button NewGame
 buttonNewGame.addEventListener ('click',function(){
     document.location.reload();

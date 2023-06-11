@@ -71,16 +71,16 @@ if(scores[activePlayer] >=100){
      const audio = new Audio('/asset/tadaa-47995.mp3');
 
      const lanseSon1 = function() {
-     audio.play()
-    }
-     audio.addEventListener('canplaythrough', lanseSon1);
+            audio.play()
+        }
+        audio.addEventListener('canplaythrough', lanseSon1);
+        
         
     }
     else{
         switchPlayer();
     }
 });
-
 //  Button NewGame
 buttonNewGame.addEventListener ('click',function(){
     document.location.reload();

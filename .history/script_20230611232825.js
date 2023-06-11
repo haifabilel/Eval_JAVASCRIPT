@@ -10,7 +10,7 @@ const dice = document.querySelector('.dice');
 const buttonRoll = document.querySelector('.btn_roll');
 const buttonHold = document.querySelector('.btn_hold');
 const buttonNewGame = document.querySelector('.btn_newGame');
-//fetch Current
+//Current
 const current0 = document.getElementById('current_0');
 const current1 = document.getElementById('current_1');
 
@@ -21,7 +21,7 @@ score1.textContent = 0 ;
 let scores = [0 , 0]
 let activePlayer = 0 ;
 let currentScore = 0 ;
-// SwitchPlayer function
+
 const switchPlayer = function(){
     document.getElementById(`current_${activePlayer}`).textContent = 0;
     document.querySelector(`.player_${activePlayer}`).classList.remove('player_winn1');
@@ -30,12 +30,17 @@ const switchPlayer = function(){
     playerOne.classList.toggle("player_active");
     playerTow.classList.toggle("player_active"); 
 
+
+    
+
 }
 //buttonRoll
 buttonRoll.addEventListener("click", function() {
     dice.classList.remove("hidden");
     
-//Generate number 1 to 6
+   
+
+    //Generate number 1 to 6
     const diceRandom = Math.floor(Math.random() * 6) + 1;
     dice.src =`/asset/dice${diceRandom}.png`
 
@@ -66,21 +71,21 @@ buttonHold.addEventListener('click',function(){
     
    
     
-if(scores[activePlayer] >=100){
-     document.querySelector(`.player_${activePlayer}`).classList.add('player_winn');
-     const audio = new Audio('/asset/tadaa-47995.mp3');
+    if(scores[activePlayer] >=100){
+        document.querySelector(`.player_${activePlayer}`).classList.add('player_winn');
+        const audio = new Audio('/asset/tadaa-47995.mp3');
 
-     const lanseSon1 = function() {
-     audio.play()
-    }
-     audio.addEventListener('canplaythrough', lanseSon1);
+        const lanseSon1 = function() {
+            audio.play()
+        }
+        audio.addEventListener('canplaythrough', lanseSon1);
+        
         
     }
     else{
         switchPlayer();
     }
 });
-
 //  Button NewGame
 buttonNewGame.addEventListener ('click',function(){
     document.location.reload();

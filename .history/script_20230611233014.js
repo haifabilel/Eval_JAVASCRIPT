@@ -75,12 +75,12 @@ if(scores[activePlayer] >=100){
     }
      audio.addEventListener('canplaythrough', lanseSon1);
         
+        
     }
     else{
         switchPlayer();
     }
 });
-
 //  Button NewGame
 buttonNewGame.addEventListener ('click',function(){
     document.location.reload();

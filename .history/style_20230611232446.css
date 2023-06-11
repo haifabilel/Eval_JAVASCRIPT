@@ -99,7 +99,10 @@ img{
     background-size:contain;
     background-position:center;
     background-repeat:no-repeat;
-    
+   
+   
+   
+  
 }
 .player_winn1{
     background-color:rgba(228, 129, 129, 0.384);
@@ -138,5 +141,8 @@ img{
     .current{
         font-size:1.3rem;
         margin-top:-20px;
-    } 
+    }
+    
+  
+    
 }
