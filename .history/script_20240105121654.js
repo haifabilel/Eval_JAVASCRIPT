@@ -80,10 +80,16 @@ buttonHold.addEventListener('click', () => {
         // Réinitialiser le score total à zéro
         scores[activePlayer] = 0;
         document.getElementById(`score_${activePlayer}`).textContent = 0;
+
+        // Cacher le dé après la mise à zéro du score
+        dice.classList.add('hidden');
     } else {
+        // Supprimer la classe "player_winn" lorsque le score est inférieur à 100
+        document.querySelector(`.player_${activePlayer}`).classList.remove('player_winn');
         switchPlayer();
     }
 });
+
 
 
 

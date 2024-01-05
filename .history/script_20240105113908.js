@@ -76,15 +76,10 @@ buttonHold.addEventListener('click', () => {
         // Réinitialiser le score actuel à zéro
         currentScore = 0;
         document.getElementById(`current_${activePlayer}`).textContent = 0;
-
-        // Réinitialiser le score total à zéro
-        scores[activePlayer] = 0;
-        document.getElementById(`score_${activePlayer}`).textContent = 0;
     } else {
         switchPlayer();
     }
 });
-
 
 
 //  Button NewGame

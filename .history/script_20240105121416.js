@@ -80,12 +80,18 @@ buttonHold.addEventListener('click', () => {
         // Réinitialiser le score total à zéro
         scores[activePlayer] = 0;
         document.getElementById(`score_${activePlayer}`).textContent = 0;
+
+        // Cacher le dé après la mise à zéro du score
+        dice.classList.add('hidden');
+
+        // Masquer l'image "golden winner" en modifiant le style directement
+        document.querySelector(`.player_${activePlayer}`).style.backgroundImage = 'none';
     } else {
+        // Réafficher l'image "golden winner" si elle a été masquée
+        document.querySelector(`.player_${activePlayer}`).style.backgroundImage = '';
         switchPlayer();
     }
 });
-
-
 
 //  Button NewGame
 buttonNewGame.addEventListener ('click',() =>{
